@@ -16,7 +16,7 @@ type SlideProps = {
   }>;
 };
 
-const LingardItems = ({ data }: SlideProps) => {
+const ProductFrames = ({ data }: SlideProps) => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   const scrollL = () => {
@@ -91,4 +91,4 @@ const LingardItems = ({ data }: SlideProps) => {
   );
 };
 
-export default LingardItems;
+export default ProductFrames;

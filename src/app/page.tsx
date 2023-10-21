@@ -1,5 +1,5 @@
-import HeroOne from '@/components/HeroOne'
-import Square from '@/components/HeroTwo'
+import HeroOne from '@/components/Hero'
+import Square from '@/components/Square'
 import NavBar from '@/components/NavBar'
 import Topbar from '@/components/Topbar'
 import Truck from "@/assets/icons/png/truck-box.png";
@@ -9,18 +9,20 @@ import Reward from "@/assets/icons/png/rewards-box.png";
 import Badge from "@/assets/icons/png/rewards-badge.png";
 
 import Image from 'next/image'
-import HeroThree from '@/components/HeroThree';
+import HeroThree from '@/components/PopularProduct';
 import Leagues from '@/components/Leagues';
 import OtherCollection from '@/components/OtherCollections';
 import Socials from '@/components/Socials';
 import Footer from '@/components/Footer';
+import PopularProduct from '@/components/PopularProduct';
+import Hero from '@/components/Hero';
 
 export default function Home() {
   return (
     <div className="w-full">
       <Topbar />
       <NavBar active='border-main border-b-2 pt-2 pb-1' />
-      <HeroOne />
+      <Hero />
 
       <div className="m-4 md:mt-10 md:mx-5 lg:mx-10 grid grid-cols-2 md:grid-cols-4 gap-4">
         <Square image={Truck} text="Secure Shipping" sub="on all orders" />
@@ -41,7 +43,7 @@ export default function Home() {
         <Image src={Badge} alt="" />
       </div>
 
-      <HeroThree/>
+      <PopularProduct/>
       <Leagues/>
       <OtherCollection/>
       <Socials/>

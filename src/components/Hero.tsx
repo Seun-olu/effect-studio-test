@@ -5,7 +5,7 @@ import Bag from "@/assets/icons/png/bag.png";
 import Api from "@/Api/Server";
 import Image from "next/image";
 
-function HeroOne() {
+function Hero() {
   const [banners, setBanners] = useState<any>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [background, setBackground] = useState("");
@@ -79,4 +79,4 @@ function HeroOne() {
     </div>
   );
 }
-export default HeroOne;
+export default Hero;

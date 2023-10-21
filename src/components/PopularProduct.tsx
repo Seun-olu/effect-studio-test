@@ -1,7 +1,7 @@
-import Lingard from "./LingardItems";
+import Lingard from "./ProductFrames";
 import image from "@/assets/images/product-large.jpg";
 
-function HeroThree() {
+function PopularProduct() {
   const SlideItems = [
     {
       image: image,
@@ -59,4 +59,4 @@ function HeroThree() {
     </div>
   );
 }
-export default HeroThree;
+export default PopularProduct;

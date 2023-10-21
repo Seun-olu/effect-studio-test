@@ -9,11 +9,11 @@ const EuroLeagues = () => {
 
     useEffect(() => {
         const league = [
-            "europe-league",
+            "champions-league",
             "copa-america-2022",
             "asian-cup-2022",
             "african-nations-cup",
-            "england-premier-league",
+            "europe-league",
         ];
 
         const fetchData = async () => {
